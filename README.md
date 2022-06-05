@@ -1,1 +1,1 @@
-Semi-cloud. Nothing Fancy.
+# Semishigure.cloud built with Qwik ⚡️
