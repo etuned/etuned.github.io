@@ -1,3 +1,7 @@
 /**
  * Write here your global css styles
  */
+
+.text-center {
+    text-align: center;
+}
