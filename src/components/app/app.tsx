@@ -1,10 +1,9 @@
-import { useStore, component$, Host, useStyles$ } from '@builder.io/qwik';
+import { component$, Host, useStyles$ } from '@builder.io/qwik';
 import { Logo } from '../logo/logo';
-import GlobalCSS from './global.css'
+import GlobalCSS from '../app/global.css'
 
 export const App = component$(() => {
   useStyles$(GlobalCSS);
-  const state = useStore({ name: 'World' });
   return (
     <Host>
       <Logo />
