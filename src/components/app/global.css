@@ -2,6 +2,28 @@
  * Write here your global css styles
  */
 
-.text-center {
-    text-align: center;
+body {
+    color: hsl(0, 0%, 74%);
+    background-color: hsl(155, 13%, 19%);
+}
+
+a:link {
+    color: hsl(166, 56%, 37%);
+    text-decoration: none;
+}
+
+a:visited {
+    color: hsl(166, 30%, 64%);
+    text-decoration: none;
+}
+
+a:hover {
+    color: hsl(216, 56%, 51%);
+    text-decoration: none;
+}
+
+a:active {
+    color: hsl(166, 89%, 21%);
+    text-decoration: none;
+
 }
